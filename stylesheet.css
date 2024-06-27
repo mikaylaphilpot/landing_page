@@ -73,3 +73,57 @@ body {
 .subtext {
     margin-bottom: 5px;
 }
+.section-two {
+    display: flex;
+    background-color: #F9FAF8;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 250px;
+}
+.random-info-heading {
+    font-weight: 800;
+    font-size: 36px;
+    color: #1F2937;
+    padding-bottom: 50px;
+}
+.all-image-texts {
+    display:flex;
+    padding-bottom: 100px;
+}
+.image-text-set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
+.image-subtext {
+    width: 150px; 
+    text-align: center;
+    color: #797781;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+}
+.quote {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    text-align: left;
+    color: #1F2937;
+}
+.quote-credit {
+    display: flex;
+    justify-content: flex-end;
+    color: #1F2937;
+    font-weight: 700;
+    font-size: 24px;
+}
